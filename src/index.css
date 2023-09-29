@@ -1,0 +1,131 @@
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+.border-black {
+  border: solid 1px black;
+}
+
+.app-button {
+  height: 35px;
+  background: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 125px;
+}
+
+.app-button:hover {
+  background-color: aqua;
+}
+
+.app-input {
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.app-table {
+  width: 100%;
+}
+
+.app-table th {
+  font-weight: normal;
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+  border-left: 1px solid black !important;
+}
+
+.app-table td {
+  font-weight: normal;
+  color: black;
+  padding: 5px;
+  border-left: 1px solid black !important;
+
+}
+
+.app-table tr:nth-child(even) {
+  background: #F5F5F5;
+}
+
+.app-layout-table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.navigation-bar {
+  display: flex;
+}
+
+.navigation-bar .nav-item {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  border: solid 1px black;
+  flex: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.table-container {
+  border-radius: 5px;
+  width: 99%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.chat-border {
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
+  border-top: 1px solid black !important;
+}
+
+.app-action-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-close {
+  opacity: 1 !important;
+  border: solid 1px black !important;
+}
+
+.app-button-upload-modal {
+  background-color: darkgrey;
+  color: black
+}
+
+.app-hide {
+  display: none;
+}
+
+.app-disabled {
+  pointer-events: none;
+  opacity: .25;
+}
+
+.file-input::file-selector-button {
+  height: 35px;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 125px;
+  background-color: darkgrey;
+  color: black
+}
+
+.file-input::file-selector-button:hover {
+  background-color: aqua;
+}
+
+.file-description-input {
+  width: 90%;
+}

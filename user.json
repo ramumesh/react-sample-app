@@ -1,0 +1,20 @@
+[
+    {
+        "fullName": "Aarav Ryan",
+        "email": "ryan.aarav@gmail.com",
+        "password": "1234",
+        "id": 2
+    },
+    {
+        "fullName": "Aarav Ryan1",
+        "email": "ryan.aarav@gmail.com",
+        "password": "12345",
+        "id": 3
+    },
+    {
+        "fullName": "Aarav Ryan2",
+        "email": "ryan.aarav@gmail.com",
+        "password": "12345",
+        "id": 4
+    }
+]

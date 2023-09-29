@@ -1,0 +1,11 @@
+.appButton {
+    height: 35px;
+    background: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 125px;
+}
+
+.appButton:hover {
+    background-color: aqua;
+}
