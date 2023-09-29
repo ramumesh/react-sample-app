@@ -26,7 +26,6 @@ function App() {
         <Route path={PATHS.DOCUMENTS} element={<DocumentList />} />
         <Route path={PATHS.EDIT_USER} element={<EditUser />} />
       </Route>
-      {/*  <Route path={PATHS.EDIT_USER} element={<EditUser />} /> */}
     </Routes>
   </BrowserRouter>;
 }
